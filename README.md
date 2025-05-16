@@ -103,8 +103,8 @@ Partiu HANDS-ON? Teste você mesmo na interface para Mobile clicando [aqui](http
     <h2 id="proximos-passos">🚀 Próximos Passos</h2>
     <ul>
       <li>📱 Interface amigável para mobile</li>
+      <li>💬 Integração com APIs de mensagem Twilio, WhatsApp</li>
       <li>📍 Geolocalização precisa (via GPS)</li>
-      <li>💬 Integração com APIs de mensagem ([Twilio](api_twilio.txt), WhatsApp)</li>
       <li>🗄️ Armazenamento seguro em banco de dados</li>
       <li>🔐 Conformidade com a LGPD</li>
       <li>🧠 Uso de NLU para conversas naturais</li>
