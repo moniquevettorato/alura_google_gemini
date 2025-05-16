@@ -123,7 +123,7 @@ Brinque na interface para Mobile clicando [aqui](https://g.co/gemini/share/1f1ed
 
 ## 👤 SOBRE A) AUTORA / CONTATO
 
-Este projeto foi desenvolvido por MONIQUE VETTORATO.
+Este projeto foi desenvolvido por MONIQUE VETTORATO (Analista de Dados).
 
 * **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/monique-vettorato/)
 * **E-mail:** [E-mail](mailto:monique.vettorato@gmail.com)
