@@ -1,0 +1,195 @@
+# -*- coding: utf-8 -*-
+# Simulação de Chatbot de Emergência no Google Colab
+# Versão com 3 perguntas, aciona SAMU se PELO MENOS UMA resposta for "sim".
+# Pede o endereço diretamente.
+# Envia AUTOMATICAMENTE (simulado) para contato de emergência se SAMU for acionado.
+# Adiciona opção para mostrar link com informações adicionais.
+
+# Importações
+from IPython.display import display, HTML
+import urllib.parse # Para codificar o endereço para o URL do Google Maps
+
+# --- URL para Informações Adicionais (SUBSTITUA PELO SEU LINK REAL) ---
+# Exemplo: Link para um Gist ou um arquivo .txt raw no GitHub
+LINK_INFORMATEC_ADICIONAIS = "https://gist.github.com/SEU_USUARIO/SEU_GIST_ID/raw/instrucoes_chatbot.txt"
+# Ou: LINK_INFORMATEC_ADICIONAIS = "https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/INFO_ADICIONAIS.txt"
+
+# --- Parte 1: Perguntas de Triagem e Lógica de Decisão ---
+
+def fazer_perguntas_triagem():
+    """Faz 3 perguntas de triagem para avaliar a necessidade do SAMU."""
+    print("Olá! Sou seu assistente de emergência. Vou fazer algumas perguntas para entender a situação.")
+    print("Por favor, responda com 'sim' ou 'nao'.\n")
+
+    respostas = {}
+    perguntas = [
+        ("A pessoa está inconsciente (não responde a chamados) OU não está respirando normalmente (ex: respiração muito rápida, muito lenta, ruidosa, ou ausente)?", "inconsciente_ou_sem_respiracao_normal"),
+        ("Houve algum acidente grave (ex: queda de altura, batida de carro, atropelamento, ferimento profundo por arma) OU a pessoa está com uma dor súbita e muito forte no peito, que pode irradiar para o braço ou pescoço?", "acidente_grave_ou_dor_forte_peito"),
+        ("A pessoa está tendo uma convulsão (ataque com tremores e perda de consciência) NESTE MOMENTO, ou apresentou subitamente dificuldade para falar, perda de força de um lado do corpo, ou desvio da boca (sugestivo de AVC)?", "convulsao_ou_sinais_avc")
+    ]
+
+    for pergunta_texto, chave_resposta in perguntas:
+        while True:
+            resposta = input(f"{pergunta_texto} ").strip().lower()
+            if resposta in ["sim", "nao"]:
+                respostas[chave_resposta] = (resposta == "sim")
+                break
+            else:
+                print("Resposta inválida. Por favor, digite 'sim' ou 'nao'.")
+    
+    return verificar_necessidade_samu(respostas)
+
+def verificar_necessidade_samu(respostas):
+    """
+    Analisa as respostas e determina se o SAMU deve ser acionado.
+    Retorna True se PELO MENOS UMA resposta for "sim", False caso contrário.
+    """
+    if any(respostas.values()):
+        print("\nAVISO: Pelo menos uma das suas respostas indica uma situação de emergência potencial!")
+        respostas_sim = [pergunta_chave for pergunta_chave, valor in respostas.items() if valor]
+        if respostas_sim:
+            print(f"Condições de alerta identificadas (respondidas com 'sim'): {', '.join(respostas_sim)}")
+        print("Acionar o SAMU (192) é fortemente recomendado.")
+        return True
+    else:
+        print("\nCom base nas suas respostas ('não' para todas as perguntas), a situação pode não exigir o SAMU imediatamente.")
+        print("No entanto, se você estiver em dúvida, a situação piorar, ou se houver outros sintomas preocupantes não perguntados, não hesite em ligar para o SAMU (192) ou procurar um serviço de saúde.")
+        return False
+
+# --- Parte 2: Simulação do Botão de Emergência ---
+
+def simular_botao_samu():
+    """Simula a exibição do botão para ligar para o SAMU usando HTML."""
+    print("\n--- BOTÃO DE EMERGÊNCIA (SIMULAÇÃO VISUAL) ---")
+    print("Numa aplicação real no telemóvel, um BOTÃO DE EMERGÊNCIA apareceria no ecrã.")
+    print("Abaixo, tentamos simular visualmente esse botão usando HTML.")
+    print("Se estiver num telemóvel e clicar nele, DEVE abrir o marcador com o número do SAMU.")
+
+    html_botao = """
+    <a href="tel:192" target="_blank" style="
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        background-color: #FF0000; /* Vermelho para emergência */
+        border: none;
+        border-radius: 8px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    ">
+        LIGAR PARA SAMU (192)
+    </a>
+    """
+    display(HTML(html_botao))
+    
+    print("\nComo esta é uma simulação, a funcionalidade real de marcação depende do seu navegador e dispositivo.")
+    print("Num computador de secretária, pode não fazer nada ou tentar abrir alguma aplicação de chamada.")
+    print("--------------------------------------\n")
+
+# --- Parte 3: Obtenção de Geolocalização e Envio de Mensagem ---
+
+def obter_contato_emergencia():
+    """Solicita o número do contato de emergência (simulado)."""
+    print("\n--- CONFIGURAR CONTACTO DE EMERGÊNCIA (SIMULAÇÃO) ---")
+    while True:
+        contato = input("Digite o número de telefone do seu contacto de emergência (ex: +351912345678 ou 912345678): ").strip()
+        # Validação simples (pode ser melhorada)
+        if contato.replace("+", "").isdigit() and len(contato.replace("+", "")) >= 9:
+            return contato
+        else:
+            print("Número inválido. Por favor, insira um número de telefone válido.")
+
+def obter_localizacao_por_endereco():
+    """
+    Pede ao utilizador para digitar o endereço ou ponto de referência.
+    """
+    print("\n--- A INFORMAR LOCALIZAÇÃO (POR MORADA) ---")
+    print("Simulando que a permissão de localização já foi dada ou que esta é a forma de obter a localização.")
+    
+    endereco_completo = ""
+    while not endereco_completo:
+        endereco_completo = input("Por favor, digite a sua RUA, NÚMERO, LOCALIDADE ou um PONTO DE REFERÊNCIA claro: ").strip()
+        if not endereco_completo:
+            print("A morada não pode ficar em branco. Por favor, tente novamente.")
+            
+    print(f"Morada informada: {endereco_completo}")
+    return endereco_completo
+
+
+def simular_envio_mensagem(contato_emergencia, endereco_informado, nome_vitima="Alguém"):
+    """Simula o envio de uma mensagem de emergência para o contato usando o endereço."""
+    print("\n--- A ENVIAR MENSAGEM DE EMERGÊNCIA (SIMULAÇÃO) ---")
+    
+    # Codifica o endereço para ser usado num URL
+    endereco_codificado = urllib.parse.quote_plus(endereco_informado)
+    link_maps = f"https://www.google.com/maps/search/?api=1&query={endereco_codificado}"
+    
+    mensagem = f"""
+    ALERTA DE EMERGÊNCIA!
+    {nome_vitima} pode estar a precisar de ajuda urgente!
+    Localização informada:
+    {endereco_informado}
+    (Tentar ver no mapa: {link_maps})
+    """
+    mensagem += "\nPor favor, tente contacto ou procure ajuda."
+
+    print(f"A seguinte mensagem SERIA ENVIADA para o número: {contato_emergencia}")
+    print("----------------------------------------------------")
+    print(mensagem)
+    print("----------------------------------------------------")
+    print("Num sistema real, esta mensagem seria enviada via SMS ou WhatsApp (usando APIs como Twilio).")
+    print("O link do mapa tentará localizar a morada fornecida.")
+    print("----------------------------------------------------\n")
+
+# --- Parte 4: Mostrar Informações Adicionais ---
+def mostrar_informacoes_adicionais():
+    """Mostra um link para informações adicionais sobre o projeto/configuração."""
+    print("\n--- INFORMAÇÕES ADICIONAIS / INSTRUÇÕES ---")
+    print("Para mais detalhes sobre este projeto, como configurá-lo para envio real de mensagens (ex: com Twilio),")
+    print("ou para aceder ao código-fonte e documentação, por favor visite o seguinte link:")
+    print(f"\n  >> {LINK_INFORMATEC_ADICIONAIS}\n")
+    print("Copie e cole o link acima no seu navegador.")
+
+# --- Função Principal para Executar o Chatbot ---
+def iniciar_chatbot():
+    """Função principal para rodar o fluxo do chatbot."""
+    
+    nome_usuario = input("Qual é o seu nome (ou o nome da pessoa que precisa de ajuda)? ").strip()
+    if not nome_usuario:
+        nome_usuario = "Alguém"
+
+    precisa_samu = fazer_perguntas_triagem()
+
+    if precisa_samu:
+        simular_botao_samu()
+        
+        print("\nAVISO: Como uma emergência foi identificada, também vamos preparar uma notificação para o seu contacto de emergência.")
+        contato = obter_contato_emergencia()
+        endereco = obter_localizacao_por_endereco() 
+        
+        if endereco: 
+            simular_envio_mensagem(contato, endereco, nome_vitima=nome_usuario)
+        else:
+            print("Não foi possível enviar a mensagem de emergência pois a morada não foi fornecida.")
+            
+    print("\n--- Fim da Simulação do Chatbot de Emergência ---")
+
+    # Opção para ver informações adicionais
+    while True:
+        ver_infos = input("\nGostaria de ver um link para informações adicionais sobre este projeto (sim/nao)? ").strip().lower()
+        if ver_infos in ["sim", "nao"]:
+            break
+        else:
+            print("Resposta inválida. Por favor, digite 'sim' ou 'nao'.")
+    
+    if ver_infos == "sim":
+        mostrar_informacoes_adicionais()
+    
+    print("\nObrigado por usar o assistente de emergência simulado!")
+
+
+# Inicia o chatbot automaticamente ao executar a célula
+iniciar_chatbot()
