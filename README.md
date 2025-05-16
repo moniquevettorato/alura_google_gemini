@@ -127,7 +127,7 @@ Este projeto foi desenvolvido por MONIQUE VETTORATO.
 
 * **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/monique-vettorato/)
 * **E-mail:** [E-mail](mailto:monique.vettorato@gmail.com)
-* **Telefone:** [WhatsApp](https://wa.me/51999374894)
-* **Portfólio de Dashboards:** [Portfólio](https://www.seusite.com/portfoli](https://sites.google.com/view/projetosdebi-moniquevettorato/inicio)
+* **Telefone:** [WhatsApp](https://wa.me/5551999374894)
+* **Portfólio de Dashboards:** [Portfólio](https://sites.google.com/view/projetosdebi-moniquevettorato/inicio)
   </body>
 </html>
