@@ -84,7 +84,7 @@
 
 Brinque na interface para Mobile clicando [aqui](https://g.co/gemini/share/1f1ed96a45fc).
 <div align="center">
-  <img src="interface_mobile.gif" width="200">
+  <img src="interface_mobile.gif" width="300">
 </div>
 
   <div class="section">
