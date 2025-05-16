@@ -32,8 +32,10 @@
 
   <div class="section">
    <h2 id="motivacao">💡 Motivação do Projeto</h2>
+    <div align="center">
     <img src="image1.PNG" alt="Descrição da Imagem" width="300" /> 
     <img src="image2.PNG" alt="Descrição da Imagem" width="500" />
+      </div>
     <p>Este protótipo surgiu do desejo de criar uma solução prática e acessível que auxilie nos momentos mais críticos: as emergências. Inspirado por casos como o Acidente Vascular Cerebral (AVC), que tira mais de <strong>6,5 milhões de vidas por ano (Ministério da Saúde)</strong>, este chatbot simula um sistema de triagem digital, capaz de:</p>
     <ul>
       <li>Identificar sinais de emergência em segundos</li>
@@ -81,9 +83,9 @@
   <h2 id="tecnologias">🖥️ Interface de testes Mobile</h2>
 
 Brinque na interface para Mobile clicando [aqui](https://g.co/gemini/share/1f1ed96a45fc).
-<video width="600" controls> 
-  <source src="interface_mobile.gif" type="video/quicktime">
-</video>
+<div align="center">
+  <img src="interface_mobile.gif" width="200">
+</div>
 
   <div class="section">
    <h2 id="tecnologias">🛠️ Tecnologias Utilizadas</h2>
