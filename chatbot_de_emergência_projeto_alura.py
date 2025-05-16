@@ -113,8 +113,18 @@ def simular_botao_samu():
     time.sleep(1)
     print("Em um computador desktop, pode não fazer nada ou tentar abrir algum aplicativo de chamada.")
     print("--------------------------------------\n")
-
-# --- Parte 3: Obtenção de Localização e Envio de Mensagem ---
+    
+# --- Parte 3: Mostrar Informações Adicionais ---
+def mostrar_informacoes_adicionais():
+    """Mostra um link para informações adicionais sobre o projeto/configuração."""
+    print("\n--- INFORMAÇÕES ADICIONAIS / INSTRUÇÕES ---")
+    time.sleep(1)
+    print("Visualize a interface versão Mobile pelo link: https://g.co/gemini/share/feb6f9952d93")
+    print("Para mais detalhes sobre este projeto, incluindo como configurá-lo para envio real de mensagens")
+    print("com Twilio (SMS/WhatsApp), ou para acessar o código-fonte e documentação completa,")
+    print("por favor visite o seguinte link: https://docs.google.com/document/d/1o1Y6BgeNz1McApWFy4qkZRZA3TRCs-a-Izy5lEAwZZw/edit?usp=sharing")
+    
+# --- Parte 4: Obtenção de Localização e Envio de Mensagem ---
 
 def obter_contato_emergencia():
     """Solicita o número do contato de emergência (simulado)."""
@@ -181,16 +191,6 @@ def simular_envio_mensagem(contato_emergencia, endereco_informado, alertas_ident
     time.sleep(1)
     print("O link do mapa tentará localizar o endereço fornecido.")
     print("-----\n")
-
-# --- Parte 4: Mostrar Informações Adicionais ---
-def mostrar_informacoes_adicionais():
-    """Mostra um link para informações adicionais sobre o projeto/configuração."""
-    print("\n--- INFORMAÇÕES ADICIONAIS / INSTRUÇÕES ---")
-    time.sleep(1)
-    print("Visualize a interface versão Mobile pelo link: https://g.co/gemini/share/feb6f9952d93")
-    print("Para mais detalhes sobre este projeto, incluindo como configurá-lo para envio real de mensagens")
-    print("com Twilio (SMS/WhatsApp), ou para acessar o código-fonte e documentação completa,")
-    print("por favor visite o seguinte link: https://docs.google.com/document/d/1o1Y6BgeNz1McApWFy4qkZRZA3TRCs-a-Izy5lEAwZZw/edit?usp=sharing")
 
 # --- Função Principal para Executar o Chatbot ---
 def iniciar_chatbot():
