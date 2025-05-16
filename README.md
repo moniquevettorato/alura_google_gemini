@@ -122,7 +122,7 @@ Partiu HANDS-ON? Teste você mesmo na interface para Mobile clicando [aqui](http
     </ul>
   </div>
 
-## 👤 SOBRE A) AUTORA / CONTATO
+## 👤 SOBRE A AUTORA / CONTATO
 
 Este projeto foi desenvolvido por MONIQUE VETTORATO (Analista de Dados).
 
