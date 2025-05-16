@@ -1,9 +1,23 @@
 <h1>Chatbot para Chamadas Médicas de Emergência (Simulado)</h1>
 
+<!-- Sumário -->
+<div style="display:flex; gap:15px; flex-wrap: wrap; align-items:center; font-family: Arial, sans-serif; margin-bottom:20px;">
+  <div style="font-weight:bold; font-size:1.2em; margin-right:20px;">Sumário</div>
+  <a href="#vida-e-precioso" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">💖 A Vida é o Bem Mais Precioso</a>
+  <a href="#video-explicativo" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">🎥 Vídeo Explicativo</a>
+  <a href="#motivacao" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">💡 Motivação do Projeto</a>
+  <a href="#impactos-sociedade" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">🌍 Impactos Positivos para a Sociedade</a>
+  <a href="#como-funciona" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">⚙️ Como Funciona (Simulação no Google Colab)</a>
+  <a href="#tecnologias" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">🛠️ Tecnologias Utilizadas</a>
+  <a href="#proximos-passos" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">🚀 Próximos Passos</a>
+  <a href="#aviso-importante" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">⚠️ Aviso Importante</a>
+</div>
+
+<h2 id="vida-e-precioso">💖 A Vida é o Bem Mais Precioso</h2>
   <p><strong>🌍 A vida é o bem mais precioso que possuímos.</strong> E quando cada segundo pode significar a diferença entre a vida e a morte, qualquer ferramenta que contribua para salvar uma vida merece atenção. Este projeto é um tributo à tecnologia a serviço do ser humano – simples, funcional e com potencial real de impacto.</p>
 
 <div class="section">
-  <h2>🎥 Vídeo Explicativo</h2>
+<h2 id="video-explicativo">🎥 Vídeo Explicativo</h2>
   <p>Assista ao vídeo abaixo para entender como meu chatbot funciona na prática em situações reais de emergência:</p>
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
     <iframe src="https://www.youtube.com/embed/SEU_VIDEO_ID" 
@@ -16,7 +30,9 @@
 </div>
 
   <div class="section">
-    <h2>💡 Motivação do Projeto</h2>
+   <h2 id="motivacao">💡 Motivação do Projeto</h2>
+<img src="imagem1.jpg" alt="Imagem de emergência 1" width="400">
+<img src="imagem2.png" alt="Imagem de emergência 2" width="400">
     <p>Este protótipo surgiu do desejo de criar uma solução prática e acessível que auxilie nos momentos mais críticos: as emergências. Inspirado por casos como o Acidente Vascular Cerebral (AVC), que tira mais de <strong>6,5 milhões de vidas por ano</strong>, este chatbot simula um sistema de triagem digital, capaz de:</p>
     <ul>
       <li>Identificar sinais de emergência em segundos</li>
@@ -26,7 +42,7 @@
   </div>
 
   <div class="section">
-  <h2>✅ Impactos Positivos para a Sociedade</h2>
+<h2 id="impactos-sociedade">🌍 Impactos Positivos para a Sociedade</h2>
   <p>Este projeto vai além da tecnologia. Ele representa uma ponte entre <strong>acessibilidade, prevenção e empatia</strong> — valores fundamentais quando o tema é salvar vidas. Seus impactos incluem:</p>
   <ul>
     <li><strong>📉 Redução do tempo de resposta:</strong> Ao simular o atendimento e orientar ações rápidas, pode ajudar a mitigar sequelas graves ou até mesmo evitar óbitos.</li>
@@ -50,7 +66,7 @@
   </div>
 
   <div class="section">
-    <h2>⚙️ Como Funciona (Simulação no Google Colab)</h2>
+  <h2 id="como-funciona">⚙️ Como Funciona (Simulação no Google Colab)</h2>
     <ol>
       <li><strong>👤 Identificação:</strong> pergunta o nome do paciente</li>
       <li><strong>🚑 Triagem:</strong> 3 perguntas para avaliar a urgência</li>
@@ -62,7 +78,7 @@
   </div>
 
   <div class="section">
-    <h2>🛠️ Tecnologias Utilizadas</h2>
+   <h2 id="tecnologias">🛠️ Tecnologias Utilizadas</h2>
     <ul>
       <li><strong>Python:</strong> linguagem principal</li>
       <li><strong>Google Colab:</strong> ambiente de execução</li>
@@ -73,7 +89,7 @@
   </div>
 
   <div class="section">
-    <h2>🚀 Próximos Passos</h2>
+    <h2 id="proximos-passos">🚀 Próximos Passos</h2>
     <ul>
       <li>📱 Interface amigável para mobile</li>
       <li>📍 Geolocalização precisa (via GPS)</li>
@@ -86,7 +102,7 @@
   </div>
 
   <div class="section important">
-    <h2>⚠️ Aviso Importante</h2>
+    <h2 id="aviso-importante">⚠️ Aviso Importante</h2>
     <p>Este é um <strong>protótipo educacional</strong>. Em emergências reais, contate imediatamente os serviços oficiais:</p>
     <ul>
       <li><strong>SAMU:</strong> 192</li>
