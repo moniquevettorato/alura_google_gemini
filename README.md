@@ -104,7 +104,7 @@ Partiu HANDS-ON? Teste você mesmo na interface para Mobile clicando [aqui](http
     <ul>
       <li>📱 Interface amigável para mobile</li>
       <li>📍 Geolocalização precisa (via GPS)</li>
-      <li>💬 Integração com APIs de mensagem (Twilio, WhatsApp)</li>
+      <li>💬 Integração com APIs de mensagem ([Twilio](api_twilio.txt), WhatsApp)</li>
       <li>🗄️ Armazenamento seguro em banco de dados</li>
       <li>🔐 Conformidade com a LGPD</li>
       <li>🧠 Uso de NLU para conversas naturais</li>
