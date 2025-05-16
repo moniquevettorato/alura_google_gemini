@@ -121,5 +121,13 @@ Brinque na interface para Mobile clicando [aqui](https://g.co/gemini/share/1f1ed
     </ul>
   </div>
 
+## 👤 SOBRE A) AUTORA / CONTATO
+
+Este projeto foi desenvolvido por MONIQUE VETTORATO.
+
+* **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/monique-vettorato/)
+* **E-mail:** [E-mail](mailto:monique.vettorato@gmail.com)
+* **Telefone:** [WhatsApp](https://wa.me/51999374894)
+* **Portfólio de Dashboards:** [Portfólio](https://www.seusite.com/portfoli](https://sites.google.com/view/projetosdebi-moniquevettorato/inicio)
   </body>
 </html>
