@@ -81,6 +81,10 @@
   <h2 id="tecnologias">🖥️ Interface de testes Mobile</h2>
 
 Brinque na interface para Mobile clicando [aqui](https://g.co/gemini/share/1f1ed96a45fc).
+<video width="600" controls>
+  <source src="interface_mobile.mp4" type="video/quicktime">
+  Seu navegador não suporta vídeo em formato .mov.
+</video>
 
   <div class="section">
    <h2 id="tecnologias">🛠️ Tecnologias Utilizadas</h2>
