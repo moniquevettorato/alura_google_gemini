@@ -85,7 +85,7 @@
 
 Partiu HANDS-ON? Teste você mesmo na interface para Mobile clicando [aqui](https://sites.google.com/view/chatbot-chamadas-emergencia/inicio).
 <div align="center">
-  <img src="interface_mobile.gif" width="300">
+  <img src="interface_teste_mobile.gif" width="300">
 </div>
 
   <div class="section">
