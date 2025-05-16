@@ -82,7 +82,7 @@
 
   <h2 id="tecnologias">🖥️ Interface de testes Mobile</h2>
 
-Brinque na interface para Mobile clicando [aqui](https://g.co/gemini/share/1f1ed96a45fc).
+Brinque na interface para Mobile clicando [aqui](https://sites.google.com/view/chatbot-chamadas-emergencia/inicio).
 <div align="center">
   <img src="interface_mobile.gif" width="300">
 </div>
