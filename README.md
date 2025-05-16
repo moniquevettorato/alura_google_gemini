@@ -37,7 +37,7 @@
     <img src="image1.PNG" alt="Descrição da Imagem" width="300" style="margin-right: 20px;">
     <img src="image2.PNG" alt="Descrição da Imagem" width="600" />
       </div>
-    <p>Este protótipo surgiu do desejo de criar uma solução prática e acessível que auxilie nos momentos mais críticos: as emergências. Inspirado por casos como o Acidente Vascular Cerebral (AVC), que tira mais de <strong>6,5 milhões de vidas por ano (Ministério da Saúde)</strong>, este chatbot simula um sistema de triagem digital, capaz de:</p>
+    <p>O projeto surgiu da inspiração de dois eventos de AVC ocorridos com o meu pai. Este protótipo, portanto, surgiu do desejo de criar uma solução prática e acessível que auxilie nos momentos mais críticos: as emergências. Inspirado por casos como o Acidente Vascular Cerebral (AVC), que tira mais de <strong>6,5 milhões de vidas por ano (Ministério da Saúde)</strong>, este chatbot simula um sistema de triagem digital, capaz de:</p>
     <ul>
       <li>Identificar sinais de emergência em segundos</li>
       <li>Simular o acionamento do SAMU (192)</li>
