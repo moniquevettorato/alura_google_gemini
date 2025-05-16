@@ -83,7 +83,7 @@
 
   <h2 id="tecnologias">🖥️ Interface de testes Mobile</h2>
 
-Brinque na interface para Mobile clicando [aqui](https://sites.google.com/view/chatbot-chamadas-emergencia/inicio).
+Partiu HANDS-ON? teste você mesmo na interface para Mobile clicando [aqui](https://sites.google.com/view/chatbot-chamadas-emergencia/inicio).
 <div align="center">
   <img src="interface_mobile.gif" width="300">
 </div>
