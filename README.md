@@ -15,7 +15,8 @@
 </div>
 
 <h2 id="vida-e-precioso">💖 A Vida é o Bem Mais Precioso</h2>
-  <p><strong>🌍 A vida é o bem mais precioso que possuímos.</strong> E quando cada segundo pode significar a diferença entre a vida e a morte, qualquer ferramenta que contribua para salvar uma vida merece atenção. Este projeto é um tributo à tecnologia a serviço do ser humano – simples, funcional e com potencial real de impacto.</p>
+  <p><strong>🌍 A vida é o bem mais precioso que possuímos.</strong> E quando cada segundo pode significar a diferença entre a vida e a morte, qualquer ferramenta que contribua para salvar uma vida merece atenção. Este projeto é um tributo à tecnologia a serviço do ser humano – simples, funcional e com potencial real de impacto. 
+    Em apenas 1 minuto, esse chatbot disponibiliza botão para acionar o SAMU, aciona o contato de emergência, enviando a geolocalização da pessoa que está precisando de ajuda.</p>
 
 <div class="section">
 <h2 id="conheca-o-projeto">🎥 Conheça o Projeto</h2>
