@@ -90,11 +90,11 @@ Brinque na interface para Mobile clicando [aqui](https://g.co/gemini/share/1f1ed
   <div class="section">
    <h2 id="tecnologias">🛠️ Tecnologias Utilizadas</h2>
     <ul>
-      <li><strong>Python:</strong> linguagem principal</li>
-      <li><strong>Google Colab:</strong> ambiente de execução</li>
-      <li><strong>IPython.display:</strong> visualização interativa</li>
-      <li><strong>urllib.parse:</strong> geração de link do Maps</li>
-      <li><strong>time:</strong> pausas estratégicas</li>
+      <li><strong>Python:</strong> A linguagem de programação fundamental em que o chatbot foi desenvolvido.</li>
+      <li><strong>Google Colab:</strong> O ambiente online do Google no qual o código Python foi executado.</li>
+      <li><strong>IPython.display:</strong> Especificamente o módulo HTML dentro dele, usado para exibir o botão de emergência como um link HTML interativo no Colab.</li>
+      <li><strong>urllib.parse:</strong> Utilizado para formatar o endereço fornecido pelo usuário para criar o link do Google Maps na mensagem de emergência simulada.</li>
+      <li><strong>time:</strong> O módulo usado para introduzir as pausas de alguns segundos durante a interação do chatbot, tornando a simulação mais fluida.</li>
     </ul>
   </div>
 
