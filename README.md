@@ -8,6 +8,7 @@
   <a href="#motivacao" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">💡 Motivação do Projeto</a>
   <a href="#impactos-sociedade" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">🌍 Impactos Positivos para a Sociedade</a>
   <a href="#como-funciona" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">⚙️ Como Funciona (Simulação no Google Colab)</a>
+  <a href="#como-funciona" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">🖥️ Interface de testes Mobile</a>
   <a href="#tecnologias" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">🛠️ Tecnologias Utilizadas</a>
   <a href="#proximos-passos" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">🚀 Próximos Passos</a>
   <a href="#aviso-importante" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">⚠️ Aviso Importante</a>
@@ -76,6 +77,10 @@
       <li><strong>🏁 Fim da simulação:</strong> reforça instruções reais</li>
     </ol>
   </div>
+
+  <h2 id="tecnologias">🖥️ Interface de testes Mobile</h2>
+
+Brinque na interface para Mobile clicando [aqui](https://g.co/gemini/share/1f1ed96a45fc).
 
   <div class="section">
    <h2 id="tecnologias">🛠️ Tecnologias Utilizadas</h2>
