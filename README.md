@@ -32,8 +32,8 @@
 
   <div class="section">
    <h2 id="motivacao">💡 Motivação do Projeto</h2>
-    <img src="https://raw.githubusercontent.com/usuario/repositorio/branch/caminho/para/image1.jpg" alt="Descrição da Imagem" width="300" />
-    <img src="https://raw.githubusercontent.com/usuario/repositorio/branch/caminho/para/image2.jpg" alt="Descrição da Imagem" width="300" />
+    <img src="image1.PNG" alt="Descrição da Imagem" width="300" /> 
+    <img src="image2.PNG" alt="Descrição da Imagem" width="500" />
     <p>Este protótipo surgiu do desejo de criar uma solução prática e acessível que auxilie nos momentos mais críticos: as emergências. Inspirado por casos como o Acidente Vascular Cerebral (AVC), que tira mais de <strong>6,5 milhões de vidas por ano (Ministério da Saúde)</strong>, este chatbot simula um sistema de triagem digital, capaz de:</p>
     <ul>
       <li>Identificar sinais de emergência em segundos</li>
