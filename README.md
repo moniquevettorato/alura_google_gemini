@@ -4,7 +4,6 @@
 <div style="display:flex; gap:15px; flex-wrap: wrap; align-items:center; font-family: Arial, sans-serif; margin-bottom:20px;">
   <div style="font-weight:bold; font-size:1.2em; margin-right:20px;">Sumário</div>
   <a href="#vida-e-precioso" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">💖 A Vida é o Bem Mais Precioso</a>
-  <a href="#conheca-o-projeto" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">🎥 Conheça o Projeto</a>
   <a href="#motivacao" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">💡 Motivação do Projeto</a>
   <a href="#impactos-sociedade" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">🌍 Impactos Positivos para a Sociedade</a>
   <a href="#como-funciona" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">⚙️ Como Funciona (Simulação no Google Colab)</a>
@@ -17,19 +16,6 @@
 <h2 id="vida-e-precioso">💖 A Vida é o Bem Mais Precioso</h2>
   <p><strong>🌍 A vida é o bem mais precioso que possuímos.</strong> E quando cada segundo pode significar a diferença entre a vida e a morte, qualquer ferramenta que contribua para salvar uma vida merece atenção. Este projeto é um tributo à tecnologia a serviço do ser humano – simples, funcional e com potencial real de impacto. 
     Em apenas 1 minuto, esse chatbot disponibiliza botão para acionar o SAMU, acionando o contato de emergência e enviando a geolocalização da pessoa que está precisando de ajuda.</p>
-
-<div class="section">
-<h2 id="conheca-o-projeto">🎥 Conheça o Projeto</h2>
-  <p>Assista ao vídeo abaixo para entender como meu chatbot funciona na prática em situações reais de emergência:</p>
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-    <iframe src="https://www.youtube.com/embed/SEU_VIDEO_ID" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen 
-            style="position: absolute; top:0; left: 0; width: 100%; height: 100%;">
-    </iframe>
-  </div>
-</div>
 
   <div class="section">
    <h2 id="motivacao">💡 Motivação do Projeto</h2>
