@@ -4,10 +4,11 @@
 <div style="display:flex; gap:15px; flex-wrap: wrap; align-items:center; font-family: Arial, sans-serif; margin-bottom:20px;">
   <div style="font-weight:bold; font-size:1.2em; margin-right:20px;">Sumário</div>
   <a href="#vida-e-precioso" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">💖 A Vida é o Bem Mais Precioso</a>
+  <a href="#conheca-o-projeto" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">🎥 Conheça o Projeto</a>
   <a href="#motivacao" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">💡 Motivação do Projeto</a>
   <a href="#impactos-sociedade" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">🌍 Impactos Positivos para a Sociedade</a>
   <a href="#como-funciona" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">⚙️ Como Funciona (Simulação no Google Colab)</a>
-  <a href="#como-funciona" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">🖥️ Interface de testes Mobile</a>
+  <a href="#interface-de-testes" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">🖥️ Interface de testes Mobile</a>
   <a href="#tecnologias" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">🛠️ Tecnologias Utilizadas</a>
   <a href="#proximos-passos" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">🚀 Próximos Passos</a>
   <a href="#aviso-importante" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">⚠️ Aviso Importante</a>
@@ -16,7 +17,8 @@
 <h2 id="vida-e-precioso">💖 A Vida é o Bem Mais Precioso</h2>
   <p><strong>🌍 A vida é o bem mais precioso que possuímos.</strong> E quando cada segundo pode significar a diferença entre a vida e a morte, qualquer ferramenta que contribua para salvar uma vida merece atenção. Este projeto é um tributo à tecnologia a serviço do ser humano – simples, funcional e com potencial real de impacto. 
     Em apenas 1 minuto, esse chatbot disponibiliza botão para acionar o SAMU, acionando o contato de emergência e enviando a geolocalização da pessoa que está precisando de ajuda.</p>
-
+   <h2 id="conheca-o-projeto">🎥 Conheça o Projeto</a></h2> 
+<a href="https://youtu.be/PmldZKEd7xc" target="_blank" style="text-decoration:none; color:#2a2a72; font-weight:600; padding:5px 10px; border-radius:5px;">▶️ Ver Vídeo</a>
   <div class="section">
    <h2 id="motivacao">💡 Motivação do Projeto</h2>
     <div align="center">
