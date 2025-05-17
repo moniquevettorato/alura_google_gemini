@@ -1,4 +1,4 @@
-<h1>Chatbot para Chamadas Médicas de Emergência (Alura + Google Gemini 05/2025)</h1>
+<h1>Chatbot para Chamadas Médicas de Emergência (Alura + Google 05/2025)</h1>
 
 <!-- Sumário -->
 <div style="display:flex; gap:15px; flex-wrap: wrap; align-items:center; font-family: Arial, sans-serif; margin-bottom:20px;">
